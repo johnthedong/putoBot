@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'telegram/bot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'telegram-bot-ruby'
+  spec.name          = 'putoBot'
   spec.version       = Telegram::Bot::VERSION
-  spec.authors       = ['Alexander Tipugin']
-  spec.email         = ['atipugin@gmail.com']
+  spec.authors       = ['John K.']
+  spec.email         = ['me@johnkoh.net']
 
-  spec.summary       = "Ruby wrapper for Telegram's Bot API"
-  spec.homepage      = 'https://github.com/atipugin/telegram-bot'
+  spec.summary       = "Telegram Bot using https://github.com/atipugin/telegram-bot"
+  spec.homepage      = 'johnkoh.net'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
